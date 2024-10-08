@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <h1>
+            Fashion Store
+        </h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link">
+                <a href="index.html">Home</a>
+            </p>
+
+            <p class="navbar-link">
+                <a href="collection.html">Collections</a>
+            </p>
+
+            <p class="navbar-link">
+                <a href="contact.html">Contact</a>
+            </p>
+
+        </div>
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+
+    </nav>
+    
+    <div class="side-navbar">
+        <p style="text-align: right;">
+            <i class="fa-solid fa-xmark" onclick="closenavbar()"></i>
+        </p>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+
+
+        </div>
+    </div>
+
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="products" id="product">
+            <div class="product-box">
+                <img src="https://picsum.photos/200/300?whiteshirt" alt="product image">
+                <p>White Shirt</p>
+            </div>
+
+
+            <div class="product-box">
+                <img src="https://picsum.photos/200/300?blackshirt" alt="product image">
+                <p>Black Shirt</p>
+            </div>
+
+
+            <div class="product-box">
+                <img src="https://picsum.photos/200/300?blueshirt" alt="product image">
+                <p>Blue Shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://picsum.photos/200/300?blueshirt1" alt="product image">
+                <p>Deniem Shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://picsum.photos/200/300?blueshirt2" alt="product image">
+                <p>Linen Shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://picsum.photos/200/300?blueshirt3" alt="product image">
+                <p>Party Shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://picsum.photos/200/300?blueshirt4" alt="product image">
+                <p>Casual Shirt</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2>Fashion Shop</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    culpa magnam similique eligendi animi atque.</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: whitesmoke;"></i>
+                    <i class="fa-brands fa-twitter" style="color: whitesmoke;"></i>
+                    <i class="fa-brands fa-facebook" style="color: whitesmoke;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@2024 Fashion Shop</p>
+    </div>
+
+    <script src="collections.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+
+</html>
